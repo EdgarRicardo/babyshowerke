@@ -1,42 +1,63 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --main-color: #2f4f4f;
+  --background: #e6e6e6;
+
+  --primary: #416E6B;
+  --highlight: #f6dd7b;
+  --neutral-light: #e8f0ef;
+  --neutral-dark: #2f4f4f;
+  --text-dark: #1e1e1e;
+  --text-muted: #6c757d;
+
+  --toastify-color-info: #8cb0c8 !important;
+  --toastify-color-success: #67a069 !important;
+  --toastify-color-warning: #f6dd7b !important;
+  --toastify-color-error: #d9534f !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  padding: 0;
+}
+
+body {
+  color: var(--main-color);
+  background: var(--background);
   margin: 0;
-}
+  padding: 0;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+  .react-datepicker-wrapper {
+    width: 100%;
+    text-align: left;
   }
+
+  .react-datepicker__current-month {
+    text-transform: capitalize;
+  }
+
+  .Toastify__toast-theme--colored.Toastify__toast--default {
+    background-color: var(--background);
+    color: var(--main-color);
+  }
+
+  .Toastify__toast-theme--colored.Toastify__toast--info {
+    background-color: var(--background);
+    color: var(--main-color);
+  }
+  h1,h2,h3{
+    margin: 0;
+  }
+}
+
+input {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  padding-top: 100px;
 }
