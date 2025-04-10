@@ -1,6 +1,6 @@
 :root {
   --main-color: #2f4f4f;
-  --background: #e6e6e6;
+  --background: linear-gradient(to bottom, #fdf6f0, #f0faff);
 
   --primary: #416E6B;
   --highlight: #f6dd7b;
@@ -13,6 +13,13 @@
   --toastify-color-success: #67a069 !important;
   --toastify-color-warning: #f6dd7b !important;
   --toastify-color-error: #d9534f !important;
+
+  --inv1: #00334c;
+  --inv2: #0077b2;
+
+  --ttc: 0.8s;
+  --ttc2: 1s;
+  --ttc3: 1.4s;
 }
 
 *,
@@ -25,7 +32,8 @@ body {
   color: var(--main-color);
   background: var(--background);
   margin: 0;
-  padding: 0;
+  padding: 1rem;
+  min-height: 100vh;
 
   .react-datepicker-wrapper {
     width: 100%;
@@ -52,12 +60,4 @@ body {
 
 input {
   width: 100%;
-}
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  padding-top: 100px;
 }
