@@ -1,8 +1,8 @@
 "use client"
 import { useState } from 'react';
-import '../styles/Invitation.css';
+import '../styles/Envelope.css';
 
-export default function Invitation() {
+export default function Envelope() {
   const [isOpen, setIsOpen] = useState(false);
 
 

@@ -2,7 +2,7 @@ import "./globals.css";
 import { lora, nunito } from "./fonts";
 import { Suspense } from "react";
 import Seo from "./components/Seo";
-import InvitacionBabyShower from './components/InvitacionBabyShower';
+import InvitacionBabyShower from './components/Envolve';
 
 
 export default function RootLayout({
