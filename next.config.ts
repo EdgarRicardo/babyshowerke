@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   basePath: "/babyshowerke",
   output: "export",  // <=== enables static exports
   reactStrictMode: true,
-  trailingSlash: true
+  trailingSlash: true,
 };
 
 export default nextConfig;

@@ -1,0 +1,127 @@
+.containerInv {
+    font-family: "Cormorant SC", serif;
+    color: #333;
+    padding: 1rem;
+    text-align: center;
+    max-width: 360px;
+    margin: 30px auto;
+}
+
+.introText {
+    font-size: 0.70rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #555;
+}
+
+.letterBlock {}
+
+.letterWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.letterItem {
+    font-size: 10rem;
+    position: relative;
+    max-height: 10rem;
+    font-weight: bold;
+}
+
+.letterB {
+    color: #D7EADC;
+    text-shadow: -4px 0px 0px #DFE8E1;
+}
+
+.letterSecondB {
+    color: #f7cb84;
+    text-shadow: -4px 0px 0px #FFEBCF;
+}
+
+.letterA {
+    color: #b5cfe3;
+    text-shadow: -4px 0px 0px #DAE7F2;
+}
+
+.letterY {
+    color: #f1ecdd;
+    text-shadow: -4px 0px 0px #EDE8E2;
+}
+
+.showerText {
+    font-family: "Dancing Script", cursive;
+    font-size: 4rem;
+    color: #a77b5a;
+    font-weight: 500;
+    letter-spacing: -5px;
+    font-weight: 400;
+    position: relative;
+    bottom: 40px;
+    left: 12px;
+}
+
+.babyName {
+    color: #FFD998;
+    margin-bottom: 2rem;
+    font-size: 2.75rem;
+    font-weight: bold;
+    margin-top: -1.25rem;
+    transform: scaleY(1.1)
+}
+
+.details {
+    font-family: "Cormorant SC", serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    color: #5A5A5A;
+    margin: 1.1rem;
+    text-align: left;
+}
+
+.date {
+    padding-right: 24px;
+    border-right: 2px solid #888;
+    text-align: right;
+    margin: 0;
+}
+
+.month {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.day {
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.timeBlock {
+    font-size: 0.65rem;
+    padding-right: 10px
+}
+
+.time {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.address{
+    margin: -12px 0px 0 8px;
+}
+
+.footer {
+    text-transform: uppercase;
+    color: #666;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: .70rem;
+    letter-spacing: 2px;
+    font-weight: 100;
+}

@@ -2,15 +2,16 @@
 import { useState } from "react";
 import Envelope from "./components/Envolve";
 import styles from "./page.module.css";
+import BabyShowerInvitation from "./components/BabyShowerInvitation";
 
 export default function Home() {
-  const [type,setType] = useState(["large","small"]);
-  const animate = ()=>{
-    setType(["small","large"])
+  const [type, setType] = useState(["large", "small"]);
+  const animate = () => {
+    setType(["small", "large"])
 
     setTimeout(() => {
-      setType(["nodisplay","large"])
-    }, 11000);
+      setType(["nodisplay", "large"])
+    }, 9000);
   }
 
   return (
@@ -18,7 +19,9 @@ export default function Home() {
       <div className={`card envelope-main ${type[0]}`} onClick={animate}>
         <Envelope />
       </div>
-      <div className={`card invitation-main ${type[1]}`}></div>
+      <div className={`card invitation-main ${type[1]}`}>
+        <BabyShowerInvitation />
+      </div>
     </div>
   );
 }
