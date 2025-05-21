@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+SC:wght@300;400;500;600;700&Tangerine&family=Knewave');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+SC:wght@300;400;500;600;700&family=Tangerine:wght@400;700&display=swap&family=Knewave');
 
 :root {
   --main-color: #2f4f4f;
@@ -35,7 +35,7 @@ body {
   background: var(--background);
   margin: 0;
   padding: 1rem;
-  max-height: 100vh;
+  min-height: 100vh;
 
   .react-datepicker-wrapper {
     width: 100%;
