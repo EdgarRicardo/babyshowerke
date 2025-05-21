@@ -10,7 +10,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Seo/>
+      <head>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+SC:wght@300;400;500;600;700&family=Tangerine:wght@400;700&display=swap&family=Knewave" rel="stylesheet" />
+      </head>
+      <Seo />
       <body>
         <Suspense>
           {children}
