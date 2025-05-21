@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+SC:wght@300;400;500;600;700&family=Tangerine:wght@400;700&display=swap&family=Knewave');
 
 :root {
-  --main-color: #2f4f4f;
+  --main-color: #ff9090;
   --background: #f3f3f3;
 
   --primary: #416E6B;
@@ -16,12 +16,15 @@
   --toastify-color-warning: #f6dd7b !important;
   --toastify-color-error: #d9534f !important;
 
-  --inv1: #00334c;
-  --inv2: #0077b2;
+  --inv1: #eeb45e;
+  --inv2: #eecb95;
+  --inv3: #ecc180;
 
   --ttc: 0.8s;
   --ttc2: 1s;
   --ttc3: 1.4s;
+
+  --heart: #f58080;
 }
 
 *,

@@ -29,7 +29,7 @@
 .pocket {
     border-left: 140px solid var(--inv2);
     border-right: 140px solid var(--inv2);
-    border-bottom: 90px solid #006da3;
+    border-bottom: 90px solid var(--inv3);
     border-top: 90px solid transparent;
     border-radius: 12px;
 }
@@ -130,7 +130,7 @@
     top: 0;
     width: 50px;
     height: 80px;
-    background: #d00000;
+    background: var(--heart);
     border-radius: 50px 50px 0 0;
     transform: rotate(-45deg);
     transform-origin: 0 100%;
