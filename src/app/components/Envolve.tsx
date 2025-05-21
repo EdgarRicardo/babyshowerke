@@ -2,19 +2,24 @@
 import { useState } from 'react';
 import '../styles/Envelope.css';
 
-export default function Envelope() {
+export default function Envelope(props: { animate: () => void }) {
   const [isOpen, setIsOpen] = useState(false);
 
 
-  return (
+  return (<>
+    <div className='initialmsg'>
+      <span >
+        ¡Te ha llegado una invitación, abrela!
+      </span>
+    </div>
     <div className="envlope-wrapper">
-      <div className={`envelope ${isOpen ? "open" : "close"}`} onClick={()=>setIsOpen(lt=>!lt)}>
+      <div className={`envelope ${isOpen ? "open" : "close"}`} onClick={() => { setIsOpen(lt => !lt); props.animate(); }}>
         <div className="front flap"></div>
         <div className="front pocket"></div>
         <div className="letter">
           <div className="words line1">Hola</div>
           <div className="words line2">¡Estas invitado!</div>
-          <div className="words line3">A nuestro Baby Shower</div>
+          <div className="words line3">a nuestro...</div>
           <div className="words line4"></div>
         </div>
         <div className="hearts">
@@ -24,5 +29,5 @@ export default function Envelope() {
         </div>
       </div>
     </div>
-  );
+  </>);
 } 

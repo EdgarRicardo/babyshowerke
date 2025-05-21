@@ -1,17 +1,19 @@
 .containerInv {
-    font-family: "Cormorant SC", serif;
+    font-family: Cormorant SC, serif;
+    font-weight: 300;
+    font-style: normal;
     color: #333;
     padding: 1rem;
     text-align: center;
     max-width: 360px;
-    margin: 30px auto;
+    margin: 1vh auto;
 }
 
 .introText {
     font-size: 0.70rem;
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
     color: #555;
 }
 
@@ -23,6 +25,7 @@
     align-content: center;
     justify-content: center;
     align-items: center;
+    gap: 12px;
 }
 
 .letterItem {
@@ -30,51 +33,60 @@
     position: relative;
     max-height: 10rem;
     font-weight: bold;
+    margin: -4px 6px;
 }
 
 .letterB {
     color: #D7EADC;
     text-shadow: -4px 0px 0px #DFE8E1;
+    text-align: right;
+    display: block;
 }
 
 .letterSecondB {
     color: #f7cb84;
     text-shadow: -4px 0px 0px #FFEBCF;
+    text-align: right;
+    display: block;
 }
 
 .letterA {
     color: #b5cfe3;
     text-shadow: -4px 0px 0px #DAE7F2;
+    text-align: left;
+    display: block;
 }
 
 .letterY {
     color: #f1ecdd;
     text-shadow: -4px 0px 0px #EDE8E2;
+    text-align: left;
+    display: block;
 }
 
 .showerText {
-    font-family: "Dancing Script", cursive;
-    font-size: 4rem;
     color: #a77b5a;
-    font-weight: 500;
     letter-spacing: -5px;
+    font-family: Tangerine, cursive;
+    font-size: 6.5rem;
     font-weight: 400;
     position: relative;
     bottom: 40px;
-    left: 12px;
+    left: 8px;
+    transform: rotate(-3deg);
 }
 
 .babyName {
-    color: #FFD998;
+    color: #ffd998;
+    margin-top: -2.25rem;
     margin-bottom: 2rem;
-    font-size: 2.75rem;
-    font-weight: bold;
-    margin-top: -1.25rem;
-    transform: scaleY(1.1)
+    font-size: 3rem;
+    font-weight: normal;
+    transform: scale(1.10) scaleY(1.15);
 }
 
 .details {
-    font-family: "Cormorant SC", serif;
+    font-family: Cormorant SC, serif;
     font-weight: 300;
     font-style: normal;
     display: flex;
@@ -112,7 +124,7 @@
     font-weight: 500;
 }
 
-.address{
+.address {
     margin: -12px 0px 0 8px;
 }
 
@@ -124,4 +136,54 @@
     font-size: .70rem;
     letter-spacing: 2px;
     font-weight: 100;
+}
+
+.animal {
+    position: absolute;
+    z-index: -1050;
+    height: auto;
+}
+
+.giraffe {
+    width: 50px;
+    bottom: 14px;
+    right: 120px;
+}
+
+.elephant {
+    width: 95px;
+    z-index: 1050;
+    top: -36px;
+    left: 85px;
+}
+
+.zebra {
+    width: 80px;
+    bottom: 55px;
+    left: 105px;
+}
+
+.cloud1 {
+    width: 280px;
+    bottom: 62px;
+    left: 10px;
+}
+
+.hipo {
+    z-index: 1050;
+    width: 105px;
+    top: 112px;
+    right: 66px;
+}
+
+.cloud2 {
+    width: 260px;
+    top: 90px;
+    right: -2px;
+}
+
+.lion {
+    width: 75px;
+    top: 65px;
+    z-index: 1050;
 }

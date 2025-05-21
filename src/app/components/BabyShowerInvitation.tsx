@@ -1,11 +1,12 @@
 "use client"
 import React from "react";
 import styles from "../styles/BabyShowerInvitation.module.css";
-import { Dancing_Script } from "next/font/google";
+import { Tangerine } from "next/font/google";
+import { URL_MAIN } from "../services/variables";
 
-const dancingScript = Dancing_Script({ subsets: ["latin"], weight: ["400", "700"] });
+const tangerine = Tangerine({ subsets: ["latin"], weight: ["400", "700"] });
 
-const URL_MAIN = "/babyshowerke/";
+
 const BabyShowerInvitation = () => {
   return (
     <main className={styles.containerInv}>
@@ -18,17 +19,22 @@ const BabyShowerInvitation = () => {
         <div className={styles.letterWrapper}>
           <div className={styles.letterItem}>
             <span className={styles.letterB}>B</span>
+            <img className={`${styles.animal} ${styles.giraffe}`} src={`${URL_MAIN}/jirafa.png`} />
           </div>
           <div className={styles.letterItem}>
             <span className={styles.letterA}>A</span>
-            {/* Zebra image would go here */}
+            <img className={`${styles.animal} ${styles.zebra}`} src={`${URL_MAIN}/cebra.png`} />
+            <img className={`${styles.animal} ${styles.cloud1}`} src={`${URL_MAIN}/nube.png`} />
           </div>
           <div className={styles.letterItem}>
+            <img className={`${styles.animal} ${styles.cloud2}`} src={`${URL_MAIN}/nube.png`} />
+            <img className={`${styles.animal} ${styles.hipo}`} src={`${URL_MAIN}/hipopotamo.png`} />
             <span className={styles.letterSecondB}>B</span>
+            <img className={`${styles.animal} ${styles.elephant}`} src={`${URL_MAIN}/elefante.png`} />
           </div>
           <div className={styles.letterItem}>
             <span className={styles.letterY}>Y</span>
-            {/* León image would go here */}
+            <img className={`${styles.animal} ${styles.lion}`} src={`${URL_MAIN}/leon.png`} />
           </div>
         </div>
         <h3 className={styles.showerText}>s h o w e r</h3>
@@ -55,7 +61,7 @@ const BabyShowerInvitation = () => {
       </div>
 
       <p className={styles.footer}>
-        Tu presencia será el mejor
+        Tú presencia será el mejor
         <br />
         regalo para este nuevo
         <br />

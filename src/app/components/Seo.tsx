@@ -1,4 +1,5 @@
 import React from "react";
+import { URL_MAIN } from "../services/variables";
 
 interface LayoutProps {
   title?: string;
@@ -22,7 +23,7 @@ const Seo: React.FC<LayoutProps> = ({
         <meta name="robots" content="index, follow" />
 
         <title>{title}</title>
-        <link rel="icon" href="/hogero/favicon.ico" />
+        <link rel="icon" href={`${URL_MAIN}/favicon.ico`} />
       
     </>
   );

@@ -16,8 +16,8 @@ export default function Home() {
 
   return (
     <div className={styles.page}>
-      <div className={`card envelope-main ${type[0]}`} onClick={animate}>
-        <Envelope />
+      <div className={`card envelope-main ${type[0]}`} >
+        <Envelope animate={animate}/>
       </div>
       <div className={`card invitation-main ${type[1]}`}>
         <BabyShowerInvitation />
