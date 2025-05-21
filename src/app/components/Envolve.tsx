@@ -17,9 +17,9 @@ export default function Envelope(props: { animate: () => void }) {
         <div className="front flap"></div>
         <div className="front pocket"></div>
         <div className="letter">
-          <div className="words line1">Hola</div>
-          <div className="words line2">¡Estas invitado!</div>
-          <div className="words line3">a nuestro...</div>
+          <div className="words line1">Una linda espera</div>
+          <div className="words line2">merece una celebración</div>
+          <div className="words line3">especial...</div>
           <div className="words line4"></div>
         </div>
         <div className="hearts">
