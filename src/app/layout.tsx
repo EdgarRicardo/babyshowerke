@@ -1,8 +1,6 @@
 import "./globals.css";
-import { lora, nunito } from "./fonts";
 import { Suspense } from "react";
 import Seo from "./components/Seo";
-import InvitacionBabyShower from './components/Envolve';
 
 
 export default function RootLayout({
@@ -13,7 +11,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Seo/>
-      <body className={`${nunito.className} antialiased`}>
+      <body>
         <Suspense>
           {children}
         </Suspense>
