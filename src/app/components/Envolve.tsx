@@ -9,7 +9,7 @@ export default function Envelope(props: { animate: () => void }) {
   return (<>
     <div className='initialmsg'>
       <span >
-        ¡Te ha llegado una invitación, abrela!
+        ¡Te ha llegado una invitación, ábrela!
       </span>
     </div>
     <div className="envlope-wrapper">
