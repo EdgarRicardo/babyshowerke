@@ -43,20 +43,20 @@ const BabyShowerInvitation = () => {
 
       <div className={styles.details}>
         <p className={styles.date}>
-          <span className={styles.month}>Noviembre</span>
+          <span className={styles.month}>Agosto</span>
           <br />
-          <span className={styles.day}>03</span>
+          <span className={styles.day}>31</span>
         </p>
         <div className={styles.timeBlock}>
-          <span className={styles.time}>12:00 PM</span>
-          <div className={styles.address}>
+          <span className={styles.time}>02:00 PM</span>
+          <a className={styles.address + " " + styles.popBounce} href="https://maps.app.goo.gl/pb5XjvQBPA8wpVd36"  target="_blank">
             <br />
-            Calle Holanda. No. 34.
+            <b>Jardin de Eventos Donají</b>
             <br />
-            Col. Jardines de Cerro Gordo.
+            Av. México 106
             <br />
-            Ecatepec. Edo. México.
-          </div>
+            San Jose Jajalpa, Ecatepec
+          </a>
         </div>
       </div>
 
