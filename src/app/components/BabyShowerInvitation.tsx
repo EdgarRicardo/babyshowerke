@@ -63,7 +63,7 @@ const BabyShowerInvitation = () => {
       </div>
 
       <p className={styles.footer}>
-        Tú presencia será el mejor
+        Tu presencia será el mejor
         <br />
         regalo para este nuevo
         <br />
