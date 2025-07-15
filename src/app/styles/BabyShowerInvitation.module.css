@@ -192,8 +192,8 @@
 }
 
 .popBounce {
-  display: inline-block;
-  animation: popBounce 2s infinite;
+  animation: popBounce 3s infinite;
+  margin-top: -10px;
 }
 
 @keyframes popBounce {

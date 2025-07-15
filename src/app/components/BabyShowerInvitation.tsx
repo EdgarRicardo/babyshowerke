@@ -48,14 +48,16 @@ const BabyShowerInvitation = () => {
           <span className={styles.day}>31</span>
         </p>
         <div className={styles.timeBlock}>
-          <span className={styles.time}>02:00 PM</span>
-          <a className={styles.address + " " + styles.popBounce} href="https://maps.app.goo.gl/pb5XjvQBPA8wpVd36"  target="_blank">
-            <br />
-            <b>Jardin de Eventos Donají</b>
-            <br />
-            Av. México 106
-            <br />
-            San Jose Jajalpa, Ecatepec
+          <span className={styles.time}>01:30 PM</span>
+          <a className={styles.address} href="https://maps.app.goo.gl/pb5XjvQBPA8wpVd36" target="_blank">
+            <div className={styles.popBounce}>
+              <br />
+              <b>Jardín de Eventos Donají</b>
+              <br />
+              Av. México 106
+              <br />
+              San Jose Jajalpa, Ecatepec
+            </div>
           </a>
         </div>
       </div>
