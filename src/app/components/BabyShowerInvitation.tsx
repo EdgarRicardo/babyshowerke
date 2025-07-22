@@ -38,7 +38,7 @@ const BabyShowerInvitation = () => {
           </div>
         </div>
         <h3 className={styles.showerText}>s h o w e r</h3>
-        <h1 className={styles.babyName}>BABY NAME</h1>
+        <h1 className={styles.babyName}>CELESTE </h1>
       </div>
 
       <div className={styles.details}>
