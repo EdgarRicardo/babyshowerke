@@ -9,8 +9,8 @@ interface LayoutProps {
 }
 
 const Seo: React.FC<LayoutProps> = ({
-  title = "Baby Shower",
-  description = "Te invitamos al baby shower!",
+  title = "Baby Shower Celeste",
+  description = "¡Te invitamos al baby shower de Celeste!",
 }) => {
   return (
     <>
@@ -21,7 +21,7 @@ const Seo: React.FC<LayoutProps> = ({
         <meta name="keywords" content="" />
         <meta name="author" content="Edgar Ricardo Corona Mendoza" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:image" content={`https://edgarricardo.github.io/babyshowerke/LEON.png`}/>
+        <meta property="og:image" content={`https://edgarricardo.github.io/babyshowerke/LEON.webp`}/>
 
         <title>{title}</title>
         <link rel="icon" href={`${URL_MAIN}/favicon.ico`} />
