@@ -78,7 +78,7 @@
 .babyName {
     color: #F7C4C9;
     letter-spacing: 4px;
-    text-shadow: -3px -2px 0px #FAE7E7;
+    text-shadow: -3px -1px 0px #FAE7E7;
     margin-top: -2.25rem;
     margin-bottom: 2rem;
     font-size: 3rem;
@@ -148,20 +148,20 @@
 }
 
 .giraffe {
-    width: 80px;
+    width: 90px;
     bottom: 10px;
-    right: 100px;
+    right: 85px;
 }
 
 .elephant {
-    width: 80px;
+    width: 85px;
     z-index: 1050;
-    top: -36px;
+    bottom: 75px;
     left: 100px;
 }
 
 .zebra {
-    width: 80px;
+    width: 75px;
     bottom: 55px;
     left: 105px;
 }
@@ -186,8 +186,9 @@
 }
 
 .lion {
-    width: 75px;
+    width: 80px;
     top: 65px;
+    left: 90px;
     z-index: 1050;
 }
 
