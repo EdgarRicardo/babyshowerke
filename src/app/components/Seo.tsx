@@ -21,7 +21,7 @@ const Seo: React.FC<LayoutProps> = ({
         <meta name="keywords" content="" />
         <meta name="author" content="Edgar Ricardo Corona Mendoza" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:image" content={`https://edgarricardo.github.io/babyshowerke/CEBRA.png`}/>
+        <meta property="og:image" content={`https://edgarricardo.github.io/babyshowerke/LEON.png`}/>
 
         <title>{title}</title>
         <link rel="icon" href={`${URL_MAIN}/favicon.ico`} />

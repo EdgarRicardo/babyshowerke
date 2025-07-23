@@ -19,22 +19,22 @@ const BabyShowerInvitation = () => {
         <div className={styles.letterWrapper}>
           <div className={styles.letterItem}>
             <span className={styles.letterB}>B</span>
-            <img className={`${styles.animal} ${styles.giraffe}`} src={`${URL_MAIN}/JIRAFA.png`} />
+            <img className={`${styles.animal} ${styles.giraffe}`} src={`${URL_MAIN}/JIRAFA.webp`} />
           </div>
           <div className={styles.letterItem}>
             <span className={styles.letterA}>A</span>
-            <img className={`${styles.animal} ${styles.zebra}`} src={`${URL_MAIN}/CEBRA.png`} />
+            <img className={`${styles.animal} ${styles.zebra}`} src={`${URL_MAIN}/CEBRA.webp`} />
             <img className={`${styles.animal} ${styles.cloud1}`} src={`${URL_MAIN}/NUBE.png`} />
           </div>
           <div className={styles.letterItem}>
             <img className={`${styles.animal} ${styles.cloud2}`} src={`${URL_MAIN}/NUBE.png`} />
-            <img className={`${styles.animal} ${styles.hipo}`} src={`${URL_MAIN}/HIPOPOTAMO.png`} />
+            <img className={`${styles.animal} ${styles.hipo}`} src={`${URL_MAIN}/HIPOPOTAMO.webp`} />
             <span className={styles.letterSecondB}>B</span>
-            <img className={`${styles.animal} ${styles.elephant}`} src={`${URL_MAIN}/ELEFANTE.png`} />
+            <img className={`${styles.animal} ${styles.elephant}`} src={`${URL_MAIN}/ELEFANTE.webp`} />
           </div>
           <div className={styles.letterItem}>
             <span className={styles.letterY}>Y</span>
-            <img className={`${styles.animal} ${styles.lion}`} src={`${URL_MAIN}/LEON.png`} />
+            <img className={`${styles.animal} ${styles.lion}`} src={`${URL_MAIN}/LEON.webp`} />
           </div>
         </div>
         <h3 className={styles.showerText}>s h o w e r</h3>
